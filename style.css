@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 33);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.info {
+    margin-right: 5px;
+}
+
+
+.info a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    padding: 30px;
+}
+
+.info a:hover {
+    color: pink;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftsidediv {
+    margin-top: 12%;
+    margin-bottom: 8%;
+}
+
+.rightsidediv {
+    margin-top: 30px;
+
+}
+
+.blue {
+    color: violet;
+}
+
+.big {
+    font-size: 1.5rem;
+}
+
+.socialmedia a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0rem;
+}
+
+.socialmedia a:hover {
+    background-color: grey;
+    border: 3px solid;
+}
+
+.b1 {
+    border-radius: 40px;
+    border: 0cap;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 1.2rem 1.2rem;
+    text-transform: uppercase;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.b1:hover {
+    font-size: 1.4rem;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.image2 {
+    margin-top: 8%;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+.info2 {
+    margin-left: 15%;
+}
+
+.info2 h2 {
+    font-size: 3rem;
+}
+
+.info2 h1 {
+    font-size: 3rem;
+}
+
+.info2 p1 {
+    font-size: 1.5em;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 20px;
+
+}
+
+.third {
+    margin-bottom: 6%;
+    margin-top: 5%;
+
+}
+
+.skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    margin-top: 4%;
+}
+
+.skillname {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skillbar {
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per {
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: green;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+
+.skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translate(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+.container4 {
+    display: block;
+    margin-top: 3%;
+}
+
+.contactme1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 2rem;
+}
+
+.firstrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.firstrow input {
+    height: 50px;
+    width: 25rem;
+}
+
+.secondrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.secondrow input {
+    height: 50px;
+    width: 25rem;
+}
+
+
+.textarea1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+
+
+}
+
+.input1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.b2 {
+    border-radius: 40px;
+    border: 0cap;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 1.2rem 1.2rem;
+    text-transform: uppercase;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: white;
+    color: black;
+}
+
+.footer-text p {
+    font-size: 1.5rem;
+}
